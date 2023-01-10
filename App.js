@@ -20,8 +20,8 @@ const App = () => {
         screenOptions={{ headerShown: false }}
         initialRouteName="Home"
       >
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="Details" component={Details} />
       </Stack.Navigator>
     </NavigationContainer>
   );
