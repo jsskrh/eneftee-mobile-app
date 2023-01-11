@@ -1,5 +1,4 @@
 import { View, Text } from "react-native";
-import React, { useState } from "react";
 import { EthPrice, NFTTitle } from "./SubInfo";
 import { COLORS, FONTS, SIZES } from "../constants";
 

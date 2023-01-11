@@ -1,5 +1,4 @@
 import { View, Text, Image } from "react-native";
-import React from "react";
 import { COLORS, FONTS, SHADOWS, SIZES, assets } from "../constants";
 
 export const NFTTitle = ({ title, subtitle, titleSize, subtitleSize }) => {
